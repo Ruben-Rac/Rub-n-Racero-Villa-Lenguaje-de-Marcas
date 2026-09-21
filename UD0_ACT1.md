@@ -42,11 +42,11 @@ Mi conclusión es que al crear en archivo txt y abrirlo con el navegador se ve t
 datos para PAISES DEL MUNDO.
 Vocabulario: paises, pais, nombre, capital, continente, idioma, poblacion
 Reglas:
-- Un documento `paises` contiene varios `pais`.
-- Un `pais` tiene: `nombre`, `capital`, `continente`, `idioma` y `poblacion`.
-- Todos los elementos dentro de `pais` son de texto simple.
-- El orden recomendado es: nombre → capital → continente → idioma → poblacion.
-- Detrás de un `pais` solo puede ir otro `pais` o el fin de `paises`.
+- Un documento "paises" contiene varios "pais".
+- Un "pais" tiene: "nombre", "capital", "continente", "idioma" y "poblacion".
+- Todos los elementos dentro de "pais" son de texto simple.
+- El orden recomendado es: nombre -> capital -> continente -> idioma -> poblacion.
+- Detrás de un "pais" solo puede ir otro "pais" o el fin de "paises".
 
 <paises>
   <pais>
@@ -96,10 +96,10 @@ y significado semántico al documento. Indica vocabulario y reglas.
 Vocabulario: biblioteca, libro, titulo, autor, isbn, paginas, editorial, idioma, formato, descripcion, año
 
 Reglas:
-- Un documento `biblioteca` contiene varios `libro`.
-- Un `libro` contiene: `titulo`, `autor`, `isbn`, `paginas`, `editorial`, `idioma`, `formato` y opcionalmente `descripcion` y `año`.
-- Todos los elementos hijos de `libro` son de texto simple.
-- Detrás de un `libro` solo puede ir otro `libro` o el fin de `biblioteca`.
+- Un documento "biblioteca" contiene varios "libro".
+- Un "libro" contiene: "titulo", "autor", "isbn", "paginas", "editorial", "idioma", "formato" y opcionalmente "descripcion" y "año".
+- Todos los elementos hijos de "libro" son de texto simple.
+- Detrás de un "libro" solo puede ir otro "libro" o el fin de "biblioteca".
 
 <biblioteca>
   <libro>
