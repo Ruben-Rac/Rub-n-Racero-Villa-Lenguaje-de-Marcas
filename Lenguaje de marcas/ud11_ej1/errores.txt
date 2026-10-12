@@ -1,8 +1,0 @@
-Linia 1 le faltaba una l 
-Linia 2 faltaba una g en lang y en es las comillas
-Linia 4 falta el <meta charset="UTF-8"> obligatorio
-Linia 5 faltaba cerrar el title 
-Linia 8 faltaba la / en el h1 para cerrarlo bien
-Linia 9 las etiquetas estan al reves va primero la b y luego la p 
-Linia 10 faltaba cerrar la p 
-Linias 12-13 no esta bien cerrado el li
