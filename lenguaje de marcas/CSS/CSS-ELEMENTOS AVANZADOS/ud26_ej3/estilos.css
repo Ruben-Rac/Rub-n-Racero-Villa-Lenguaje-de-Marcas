@@ -1,0 +1,45 @@
+
+p::first-letter {
+  font-size: 2.5em;
+  color: #d41414;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+
+::selection {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "✔ ";
+  color: #28a745;
+  font-weight: bold;
+}
+
+
+a[target="_blank"]::after {
+  content: " ↗";
+  font-size: 0.8em;
+  color: #0066cc;
+}
+
+
+h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #ff4d4d;
+  margin-top: 5px;
+}

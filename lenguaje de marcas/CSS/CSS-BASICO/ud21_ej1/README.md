@@ -1,0 +1,3 @@
+¿cuál de las tres formas es la más cómoda si tuvieras que cambiar el color del título en 10 páginas? ¿Por qué se desaconseja la primera?
+
+Yo creo que la forma mas cómoda es la tercera es decir enlazandolo con un css porque asi solo tienes que modificar una sola linea se cambian las paginas que quieras. Yo pienso que se desaconseja la primera porque no consigues que el codigo se vea limpio y que sea facil solucionar algun error y además si quieres modificar algo generar a muchas paginas, tienes que ir una por una corrigiendolo.

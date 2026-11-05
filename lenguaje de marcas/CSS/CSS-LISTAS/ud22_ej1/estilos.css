@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #333;
+}
+
+h1 {
+    color: #b22222;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    color: #444;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+}
+
+
+ol ul.utensilios {
+    list-style-type: circle;
+    margin-top: 8px;
+}

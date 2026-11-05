@@ -1,0 +1,23 @@
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+tr:not(thead tr):hover {
+  background-color: #ffff99;
+  cursor: pointer;
+}
+
+li:nth-child(3n+1) {
+  color: #0066cc;
+}
+
+
+li:nth-child(3) {
+  font-weight: bold;
+}

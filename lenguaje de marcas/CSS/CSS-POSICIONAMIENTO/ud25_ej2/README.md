@@ -1,0 +1,1 @@
+La diferencia que hay con fixed el menu no se mueve y el contenido cuando bajamos la pagina se esconde detras en cambio con el sticky se amolda a subir y bajar en la pagina y respeta el espacio sin ocultarse

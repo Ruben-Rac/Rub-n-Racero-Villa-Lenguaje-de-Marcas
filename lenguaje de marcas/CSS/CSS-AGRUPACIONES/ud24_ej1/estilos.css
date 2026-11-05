@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.pagina {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    padding: 20px;
+}
+
+.cabecera {
+    background-color: #e3f2fd;
+    border: 2px solid #90caf9;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenido {
+    background-color: #fce4ec;
+    border: 2px solid #f48fb1;
+    padding: 15px;
+    margin-top: 15px;
+ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie {
+    background-color: #e8f5e9;
+    border: 2px solid #a5d6a7;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.tarjeta {
+    background-color: #ffffff;
+    width: 240px;
+    padding: 15px;
+    border: 10px solid #cccccc;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.etiqueta {
+    background-color: #ffeb3b;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    
+
+    display: inline-block;
+    text-align: center;
+    line-height: 40px; 
+}
+
+
+/* lo pongo asi para q se compruebe que hice la prueba
+.tarjeta:nth-child(3) {
+    display: none;
+} 

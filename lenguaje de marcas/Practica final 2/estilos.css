@@ -1,0 +1,207 @@
+* {  /*TOTAL*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*para que todo se realize en la caja*/
+}
+header {
+    background-color: #2f5d46;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 20px 0;
+    
+}
+header h1 {
+    margin-top: 2%;
+}
+header h3 {
+    margin-bottom: 2%;
+}
+.sello{
+    background-color: #f08a24;
+    position: absolute;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    border-radius: 80%; /*redondeo de bordes*/
+    text-align: center;
+    font-size: 10px;
+}
+
+nav {
+    background-color: #2f5d46;
+    text-align: center;
+    color: white;
+    margin-top: 0.2%;
+    position: relative;
+    padding: 10px 0;
+    margin-bottom: 1%;
+}
+main {
+    margin: auto;
+    width: 960px;
+    background-color: white;
+   
+}
+
+body {
+    background-color: #e9efe9;
+}
+
+body section {
+    margin-left: 1.5%;
+}
+nav ul{
+    margin-block-start: 1px; /*modifica margen superior*/
+}
+nav li {
+    padding-top: 5px;
+    display: inline-block;
+    padding-left: 35px; 
+    margin-block-start: 1px;   
+}
+nav a {
+    text-decoration: none; /*para que queden defaults sin subrayado*/
+    color: white;
+}
+nav a:hover{
+    color: orange;
+}
+/*PROXIMAS RUTAS*/
+
+section h2 {
+    color: #2f5d46;
+}
+.tarjeta {
+    display: inline-block;
+    width: 270px;
+    background-color: #ffffff;
+    vertical-align: top;
+    margin: 10px 14px;
+    border: 1px solid black;  /*bordes de fuera*/
+    position: relative;
+}
+.tarjeta1 {
+    position: relative;       /*subir un poco la tarjeta del centro*/
+    top: -12px;
+}
+
+.foto {
+    height: 140px;
+    width: 100%;
+}
+
+.color-1 { background-color: #8fb996; }
+.color-2 { background-color: #a7c5d9; }
+.color-3 { background-color: #e5c07b; }
+
+
+.info-tarjeta {
+    padding: 15px;   /*añade relleno*/
+}
+.dificultad{ /*CRREACION DE LAS DIFICULTADES*/
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    background-color: #f08a24;       
+    border-radius: 10px;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    overflow: hidden;      /*para que el texto no sobressalga*/
+}
+.dificultad p{ /*elimina margenes*/
+    margin-block-start: 0px;
+    color: white;
+}
+
+/*GALERIAS*/
+.galeria{
+    margin-bottom: 30px;
+}
+.galeria article{
+    width: 280px;
+    height: 210px;
+    display: inline-block;   
+    position: relative;
+}
+
+.galeria .amanecer{
+    background-color: #8fb996;
+    border: solid 6px white;
+    right: -48px;
+    z-index: 1;       /*posicion*/
+}
+.galeria .descanso{
+    background-color: #a7c5d9;
+    border: solid 6px white;
+    bottom: -28px;
+    z-index: 2;
+}
+.galeria .sierra{
+    background-color: #e5c07b;
+    border: solid 6px white;
+    left: -48px;
+    z-index: 1;
+}
+
+.galeria .amanecer:hover, .sierra:hover{
+    z-index: 3;
+}
+.pie{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0px;
+    
+}
+.pie p {
+    color: white;
+    margin-block-start: 0px;
+    margin-inline-end: 0px  ;
+}
+/*OPINIONES*/
+.opiniones{
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(215, 212, 212);
+    height: 170px;
+    overflow: auto;     /*para que haya un barra para bajar contenido*/
+    margin-bottom: 25px;
+}
+.opinionespersonales{
+    border-bottom: 1px solid;
+}
+/*ZONA BAJA*/
+footer{
+    text-align: center;
+    background-color: #2f5d46;
+    height: 40px;
+    
+}
+footer p {
+    color: white;
+    padding-top: 15px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+/*BOTON*/
+.subir {
+    background-color: #f08a24;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+    position: fixed ;     /*siempre aparece a la derecha de la pagina subas o bajes*/
+}
+.subir a{
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubén Racero Villa - Formulario de alta de usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <form action="#" method="POST">
+        <h2>Formulario de alta de usuario</h2>
+        <table>
+            <tr>
+                <td colspan="2" class="text-center">
+                    <label for="id_usuario">Identificador de nuevo usuario</label>
+                    <input type="text" id="id_usuario" name="id_usuario" value="usu_012345" readonly size="15">
+                </td>
+            </tr>
+
+    
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </td>
+                <td>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                </td>
+                <td>
+                    <label for="confirm_password">Confirmar contraseña:</label>
+                    <input type="password" id="confirm_password" name="confirm_password">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" size="60">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Sexo:</label>
+                </td>
+                <td>
+                    <input type="radio" id="hombre" name="sexo" value="hombre">
+                    <label for="hombre">Hombre</label>
+                    
+                    <input type="radio" id="mujer" name="sexo" value="mujer">
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+
+            <tr>border: 4px solid rgb(212, 20, 20);
+                <td>
+                    <label>Aficiones:</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="deportes" name="aficiones[]" value="deportes">
+                    <label for="deportes">Deportes</label><br>
+                    
+                    <input type="checkbox" id="lectura" name="aficiones[]" value="lectura" checked>
+                    <label for="lectura">Lectura</label><br>
+                    
+                    <input type="checkbox" id="cine" name="aficiones[]" value="cine">
+                    <label for="cine">Cine</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="pais">Pais:</label>
+                    <select id="pais" name="pais">
+                        <option value="espana" selected>España</option>
+                        <option value="francia">Francia</option>
+                        <option value="portugal">Portugal</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="foto">Subir su foto:</label>
+                    <input type="file" id="foto" name="foto" title="Selecciona una imagen desde tu dispositivo."> <!-- Uso de title  -->
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>
+                    <label for="comentarios">Comentarios personales:</label>
+                </td>
+                <td>
+                    <textarea id="comentarios" name="comentarios" cols="40" rows="5">Escriba aquí sus comentarios</textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">
+                    <input type="reset" value="Resetear">
+                </td>
+                <td class="text-center">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

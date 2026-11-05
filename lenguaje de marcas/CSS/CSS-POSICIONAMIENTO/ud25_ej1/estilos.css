@@ -1,0 +1,31 @@
+.contenedor {
+    width: 300px;
+    position: relative;
+    border: 2px solid #333333;
+}
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.c1 {
+    background-color: #e74c3c;
+    position: relative; 
+    z-index: 2;         
+}
+
+.c2 {
+    background-color: #3498db;
+    position: relative;
+    top: -40px;         
+    z-index: 1;         
+}
+.c3 {
+    background-color: #2ecc71;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, sans-serif;
+} /* El * sirve para incluir toda la pagina */
+
+
+h1 {
+    color: blue;
+}
+
+
+h2 {
+    color: darkorange;
+}
+
+
+p {
+    color: gray;
+    text-align: justify;
+    font-size: 16px;
+}

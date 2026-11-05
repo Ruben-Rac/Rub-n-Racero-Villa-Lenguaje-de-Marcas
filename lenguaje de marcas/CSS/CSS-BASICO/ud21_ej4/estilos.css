@@ -1,0 +1,15 @@
+
+#corp {
+    color: #1e3a8a;
+}
+
+
+a[target] {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+
+p[class] {
+    background-color: #e0f2fe;
+}

@@ -1,0 +1,33 @@
+
+input:focus, select:focus, textarea:focus {
+  background-color: #e8f4fd;
+}
+
+
+input:required {
+  border-left: 4px solid #d41414;
+}
+
+
+input:read-only {
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+
+
+input:disabled {
+  background-color: #f8f9fa;
+  opacity: 0.5;
+}
+
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: #28a745;
+}
+
+input:hover:focus {
+  background-color: #d1ecf1;
+  border-color: #17a2b8;
+}

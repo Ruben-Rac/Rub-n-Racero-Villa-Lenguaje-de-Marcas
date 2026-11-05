@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*para que todo se realize en la caja*/
+}
+header {
+    background-color: #eee;
+    margin-bottom: 5px;
+    position: relative;
+    padding: 20px 0; /*para rellenar arriba y abajo*/
+}
+header h1{
+    text-align: center;
+    color: red;
+    margin-top:0.2%;
+}
+header h2 {
+    text-align: center;
+    color: green;
+    margin-top:0.2%;
+    margin-bottom:0.2%;
+}
+
+header .izq{
+    position: absolute; /*hijo -> lo demas es posicionammiento*/
+    width: 75px;
+    height: 75px;
+    top: 15px;          
+    left: 20px;
+}
+header .der{
+    position: absolute; /*hijo -> lo demas es posicionammiento*/
+    width: 75px;
+    height: 75px;
+    top: 15px;          
+    right: 20px;
+}
+nav {
+    background-color: #eee;
+    text-align: center;
+}
+nav :hover{           /* Efecto de raton pasar por encima poner hover y ya esta*/
+    color: red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+
+article {
+    display: inline-block;  /* para que se alineen y el width es la cantidad */
+    width: 32%;
+    position: relative; /*padre*/
+    min-height: 140px;     /*minimo que necesitamos*/
+    padding: 15px;          /*tamaño*/
+    margin: 0.5%;
+    vertical-align: top;    /*alinearlas todas por igual arriba*/
+    
+}
+article img{
+    position: absolute; /*hijo -> lo demas es posicionammiento*/
+    width: 50px;
+    height: 50px;
+    top: 15px;          
+    left: 15px;
+    transition: transform 0.3s ease;
+}
+article div {
+    margin-left: 65px; 
+}
+article h3 {
+    margin: 0 0 5px 0;
+}
+
+article p {
+    margin: 0;
+}
+
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+article:nth-child(3) {
+    background-color: rgba(208,61,107,0.5);
+}
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 5px;
+    background-color: #eee;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 5px;
+    background-color: #eee;
+    margin-top: 20px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #333;
+}
+article img:hover {
+    transform: scale(1.15); /* Aumenta el tamaño un 15% */
+}
+
+footer img:hover {
+    transform: scale(1.15); /* Aumenta el tamaño un 15% */
+}
