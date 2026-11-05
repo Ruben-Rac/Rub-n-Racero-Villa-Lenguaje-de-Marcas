@@ -1,6 +1,6 @@
 
 input:focus, select:focus, textarea:focus {
-  background-color: #e8f4fd;
+  background-color: #e8f4fd;                   /*cambia color cuando pulsas*/
 }
 
 
@@ -22,7 +22,7 @@ input:disabled {
 
 
 input[type="radio"]:checked + label,
-input[type="checkbox"]:checked + label {
+input[type="checkbox"]:checked + label {                         /*Cuando una casilla o un botón de radio está seleccionado, pon la etiqueta de texto que tiene justo al lado en negrita y de color verde*/
   font-weight: bold;
   color: #28a745;
 }
