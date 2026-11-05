@@ -1,0 +1,193 @@
+Resumen de las etiquetas utilizadas que pueden ayudar (ud12_ej2.html):
+    • <strong>: Para el texto de "Envío gratuito...", indicando la importancia requerida.
+    • <blockquote>: Para envolver la cita de Aristóteles.
+    • <em>: Para dar énfasis en cursiva a la palabra "descatalogado".
+    • <mark>: Para destacar/remarcar el modelo "XR200".
+    • <hr>: Para incluir la línea horizontal que separa los precios del resto del contenido.
+    • <del>: Para tachar el precio anterior (39,99 euros).
+    • <ins>: Para señalar el precio actual (29,99 euros) como contenido insertado/nuevo.
+    • <br>: Para los saltos de línea correspondientes.
+Resumen de las etiquetas especiales utilizadas que pueden ayudar (ud12_ej3.html):
+    • <abbr>: Con el atributo title para explicar siglas (ej. PyCharm Integrated Development Environment).
+    • <code> y <pre>: Para mostrar un bloque de comandos de consola (python --version).
+    • <kbd>: Para indicar combinaciones de teclas del teclado (Ctrl + Alt + N).
+    • <dfn>: Para señalar la definición inicial de un término técnico (IDE).
+    • <time>: Con el atributo datetime para marcar de forma semántica la fecha de lanzamiento.
+    • <address> (dentro de <footer>): Para la información de contacto del autor de la ficha.
+    • <sup> y <sub>: Usados como superíndice (v2<sup>nd</sup>) y subíndice (2<sub>8</sub>) para cumplir con el requisito de notación avanzada.
+Resumen de etiquetas específicas utilizadas que pueden ayudar  (ud12_ej4.html):
+    • <strong>: Otorga máxima importancia a un fragmento de texto (se muestra en negrita por defecto).
+    • <em>: Otorga énfasis semántico al texto (se muestra en cursiva por defecto).
+    • <code>: Representa fragmentos de código informático o elementos de sintaxis.
+    • <address>: Etiqueta semántica para agrupar la información de contacto del autor de la página o documento.
+    • <ul> y <li>: <ul> define una lista desordenada (sin números) y <li> representa cada elemento individual dentro de la lista.
+    • <a>: Define un hiperenlace; en este caso usa href="mailto:..." para abrir el cliente de correo al hacer clic.
+ Resumen de etiquetas específicas que pueden ayudar (13_1).
+    • <img>: Permite incrustar una imagen en el documento HTML utilizando el atributo src para la ruta, alt para la descripción accesible, y width para ajustar el tamaño.
+ Resumen de etiquetas específicas que pueden ayudar (13_2)
+    • <div>: Funciona como un contenedor genérico para agrupar las 4 imágenes. Al aplicar width="40%" a cada <img>, el porcentaje se calcula con respecto al ancho de este <div>.
+    • <h2>: Define el título descriptivo de la sección de la galería.
+    • <img>: Cada imagen utiliza rutas relativas (img/nombre.jpg), texto alternativo accesible mediante alt y un ancho relativo en porcentaje con width="40%".
+ Resumen de etiquetas específicas que pueden ayudar (13_3)
+    • <img>: Se incluye con el atributo style="float: left;" para permitir que el texto que viene a continuación la envuelva por el lado derecho.
+    • <div> con style="clear: both;": Limpia el comportamiento de flotado (float), asegurando que cualquier elemento que se coloque debajo (como el párrafo final) vuelva al flujo normal de la página sin quedar montado a un lado de la imagen.
+ Resumen de etiquetas específicas que pueden ayudar(13_4)
+    • <!-- ... -->: Permite incluir comentarios en el código HTML que no son visibles en la página web, utilizado aquí para explicar la diferencia entre imágenes locales y remotas.
+    • <img> (Ruta relativa vs absoluta):
+        ◦ Ruta relativa (img/servidor_nas.jpg): Apunta a una imagen guardada en tu propio proyecto.
+        ◦ Ruta absoluta (https://...): Apunta a una imagen alojada en un servidor externo en internet.
+    • Atributos width y height: Definen de forma explícita el ancho y el alto de las imágenes.
+    • Atributo style="border: ...": Permite aplicar un borde a la imagen utilizando CSS en línea en lugar del atributo HTML border que está en desuso/obsoleto.
+    • <del>: Representa texto o contenido que ha sido eliminado o tachado (utilizado para el precio antiguo antes del descuento).
+    • <strong>: Indica máxima importancia semántica, mostrando el precio final rebajado en negrita.
+Resumen de etiquetas específicas que pueden ayudar (14_1)
+    • <a>: La etiqueta fundamental para crear hiperenlaces. Utiliza el atributo href para indicar la dirección web de destino.
+    • Atributo target="_blank": Se utiliza para indicar que el enlace se abra en una pestaña o ventana nueva del navegador.
+    • <ul> y <li>: Estructuran la información en forma de lista desordenada para una lectura más clara.
+ Resumen de etiquetas específicas que pueden ayudar  (14_2)
+    • <a> con rutas relativas: Se utiliza href="sobre-mi.html" y href="index.html" para enlazar directamente archivos que están en el mismo directorio sin necesidad de escribir la ruta completa del disco duro.
+ Resumen de etiquetas específicas que pueden ayudar (14_3)
+    • Anclas internas (<a href="#id">): Al pulsar sobre un enlace cuyo href empieza por # (ej. href="#sistemas-operativos"), el navegador se desplaza automáticamente dentro de la misma página hasta encontrar el elemento que contenga ese id (ej. <h2 id="sistemas-operativos">).
+    • Atributo id: Identificador único que se asigna a cualquier elemento HTML para ser referenciado por enlaces de ancla o estilos.
+    • <hr>: Línea horizontal para separar visualmente el índice de las secciones del tutorial.
+ Resumen de etiquetas específicas que pueden ayudar(14_4)
+    • <nav>: Etiqueta semántica destinada a albergar las secciones de navegación del sitio web.
+    • <a href="mailto:...">: Permite abrir el cliente de correo configurado en el sistema del usuario con la dirección de email precargada como destinatario.
+    • Atributo download: Fuerza la descarga directa del archivo vinculado (cv.pdf) en lugar de intentar abrirlo en una pestaña del navegador.
+    • Anclas internas (href="#arriba"): Utilizadas junto con el atributo id="arriba" en los encabezados para permitir al usuario regresar rápidamente al inicio de la página.
+ Resumen de etiquetas específicas que pueden ayudar (15_1)
+    • <table>: Define la estructura global de la tabla.
+    • <caption>: Proporciona un título o descripción general accesible para la tabla (se muestra justo encima de ella por defecto).
+    • <tr> (Table Row): Define cada una de las filas dentro de la tabla.
+    • <th> (Table Header): Representa celdas de encabezado (destacadas visualmente en negrita y centradas por defecto). Se utiliza tanto para los días en la primera fila como para los tramos horarios en la primera columna.
+    • <td> (Table Data): Representa las celdas estándar con los datos de los contenidos/módulos.
+Resumen de etiquetas y propiedades específicas que puede ayudar (15_2)
+    • Propiedad border: Define el grosor, estilo y color del borde de la tabla y de las celdas (border: 1px solid #000000;).
+    • Propiedad border-collapse: collapse;: Evita la separación doble que muestran por defecto los bordes de una tabla HTML, colapsándolos en un único borde compartido.
+    • Propiedad background-color: Aplica un color de fondo diferente a las celdas de tipo <th> (encabezados) con respecto a las celdas de tipo <td> para resaltar las categorías de la tabla.
+    • Propiedad text-align: center;: Centra horizontalmente el contenido del texto dentro de las celdas de la tabla.
+ Resumen de etiquetas y atributos específicos que pueden ayudar (15_3)
+    • Atributo colspan: Permite expandir una celda horizontalmente a lo largo de múltiples columnas (colspan="3" abarca las 3 columnas de la tabla para actuar como separador de sección).
+    • Atributo rowspan: Permite expandir una celda verticalmente a lo largo de múltiples filas (rowspan="2" agrupa dos modalidades de un mismo servicio sin repetir el nombre).
+    • Colores de fondo alternos: Se aplican distintos tonos en background-color dentro del atributo style de cada fila (<tr>) para alternar filas claras y oscuras, facilitando la lectura.
+ Resumen de etiquetas y propiedades específicas que pueden ayudar (15_4)
+    • <thead>: Agrupa el bloque del encabezado de la tabla.
+    • <tbody>: Agrupa el cuerpo de datos de la tabla.
+    • <tfoot>: Agrupa el pie de la tabla, utilizado comúnmente para resúmenes o totales.
+    • caption-side: bottom;: Cambia la ubicación de la etiqueta <caption> para que se muestre en la parte inferior de la tabla en vez de arriba.
+    • border-spacing: Establece la distancia/espacio en píxeles entre los bordes de celdas adyacentes cuando no se utiliza border-collapse.
+    • vertical-align: middle;: Controla la alineación vertical del texto dentro de las celdas (especialmente útil en celdas combinadas con rowspan).
+    • empty-cells: show;: Configura la renderización de las celdas que no contienen datos para mostrar sus bordes y fondo.
+ Resumen de etiquetas y propiedades específicas que pueden ayudar (2.1 ej 1)
+    • Atributo style: Permite aplicar reglas de estilo CSS directamente en línea sobre un elemento HTML específico (estilos inline).
+    • Etiqueta <style>: Se coloca dentro de la cabecera (<head>) para agrupar reglas CSS internas que afectan a toda la página web.
+    • Etiqueta <link>: Se utiliza en el <head> para enlazar un archivo CSS externo mediante los atributos rel="stylesheet" y href="ruta".
+    • Propiedad CSS color: Define el color del texto de un elemento.
+    • Propiedad CSS text-align: Controla la alineación horizontal del texto (ej. center).
+    • Propiedad CSS font-family: Especifica la tipografía o familia de fuentes que utilizará el texto.
+ Resumen de selectores y propiedades específicas que pueden ayudar (2.1 ej2)
+    • Selector universal (*): Selecciona y aplica estilos a todos los elementos de la página web sin excepción.
+    • Selectores de tipo (ej. h1, p): Seleccionan todos los elementos HTML que coincidan exactamente con el nombre de esa etiqueta.
+    • Propiedad CSS text-align: justify;: Justifica el texto de los párrafos para que los márgenes izquierdo y derecho queden alineados.
+    • Propiedad CSS line-height: Define la altura de la línea de texto, mejorando la legibilidad.
+    • Especificidad y orden: Las reglas con selectores más específicos o declaradas posteriormente pueden sobrescribir a las generales según las reglas de cascada de CSS.
+Resumen de selectores y propiedades específicas que pueden ayudar (2.1 ej3)
+    • Selector de descendientes (espacio entre selectores, ej. div h1 em): Permite seleccionar un elemento que se encuentra dentro de otro, sin importar cuántos niveles de profundidad existan.
+    • Selector de clase (.nombre-clase): Selecciona cualquier elemento HTML que tenga asignado ese valor en su atributo class.
+    • Selector compuesto (etiqueta.clase, ej. p.especial): Restringe la regla exclusivamente a las etiquetas de ese tipo que contengan esa clase concreta, aumentando la especificidad.
+    • Propiedad CSS border-left: Define el grosor, estilo y color del borde izquierdo de un elemento.
+    • Propiedad CSS background-color: Establece el color de fondo de un elemento.
+ Resumen de selectores y propiedades específicas que pueden ayudar (2.1 ej4)
+    • Selector de ID (#nombre-id): Selecciona de forma exclusiva un único elemento del documento que posea ese identificador exacto. Su uso en CSS para estilos está desaconsejado por su alta especificidad y carácter único.
+    • Selector de atributos (etiqueta[atributo]): Selecciona elementos que contengan un atributo específico, sin importar su valor (ej. p[class]).
+    • Selector de atributos con valor (etiqueta[atributo="valor"]): Permite refinar la selección para actuar únicamente sobre los elementos cuyo atributo coincida exactamente con un valor determinado (ej. a[target="_blank"]).
+ Resumen de selectores y propiedades específicas que pueden ayudar (2.1 ej5)
+    • Cálculo de Especificidad: Regla que determina qué estilos aplica el navegador cuando chocan varias declaraciones sobre un mismo elemento (ID > Clase > Etiqueta).
+    • Regla de Cascada: Si dos reglas tienen exactamente la misma especificidad, el navegador aplicará la última que haya sido declarada en el código CSS.
+    • Agrupación de Selectores (s1, s2): Permite aplicar las mismas reglas de estilo a múltiples selectores separados por comas.
+    • Organización de CSS por Secciones: Uso de comentarios multilínea (/* ... */) para mantener el código CSS limpio, estructurado y fácil de mantener.
+Resumen de etiquetas y propiedades específicas que pueden ayudar (2.2 ej1)
+    • Etiqueta <ul>: Define una lista desordenada (con viñetas).
+    • Etiqueta <ol>: Define una lista ordenada (con números o letras secuenciales).
+    • Etiqueta <li>: Define un elemento o ítem dentro de cualquier tipo de lista (ul u ol).
+    • Propiedad CSS list-style-type: Permite cambiar el marcador visual de las listas. Sus valores más comunes son disc, circle, square para listas desordenadas, y decimal, upper-roman, lower-alpha para listas ordenadas.
+    • Anidamiento de listas: Permite introducir una lista (ul u ol) dentro de un elemento li de otra lista para estructurar información jerárquicamente.
+Resumen de etiquetas y propiedades específicas que pueden ayudar (2.2 ej2)
+    • Propiedad CSS list-style-image: Permite utilizar una imagen externa (icono) como marcador de lista en lugar de las viñetas predeterminadas.
+    • Propiedad CSS list-style-position: Controla la ubicación de la viñeta respecto al texto del elemento (outside la coloca fuera del margen y inside la integra dentro).
+    • Propiedad abreviada list-style: Permite definir en una sola línea múltiples propiedades de lista (list-style-type, list-style-position y list-style-image), incluyendo un marcador de respaldo por si falla la carga de la imagen.
+Resumen de etiquetas y propiedades específicas que pueden ayudar (2.2 ej3)
+    • Etiqueta <nav>: Define una sección de la página dedicada exclusivamente a los enlaces de navegación.
+    • Propiedad CSS display: flex;: Convierte al contenedor (<ul>) en un modelo flexible, alineando automáticamente sus elementos hijos (<li>) en una sola fila horizontal.
+    • Propiedad CSS text-decoration: none;: Elimina el subrayado por defecto que los navegadores aplican a los hipervínculos (<a>).
+    • Propiedad CSS border-radius: Permite redondear las esquinas de los elementos de caja.
+    • Pseudoclase :hover: Aplica estilos condicionales a un elemento únicamente cuando el cursor del ratón se sitúa encima de él.
+Resumen de etiquetas y propiedades específicas que pueden ayudar (2.3)
+    • Etiqueta <table>, <tr>, <td>, <th>: Estructuran el formulario en forma de rejilla tabular. 
+    • Atributo colspan: Permite fusionar celdas horizontalmente para campos que ocupan todo el ancho. 
+    • Propiedad CSS border-collapse: collapse;: Fusiona los bordes de la tabla para que las líneas divisorias se vean limpias. 
+    • Atributo readonly: Bloquea el campo de texto para que el valor por defecto (usu_012345) no se pueda modificar. 
+    • Atributo title: Añade información emergente descriptiva (tooltip) al pasar el cursor sobre los elementos.
+Resumen de etiquetas y propiedades específicas que pueden ayudar (2.4 )
+    • Elemento <div>: Caja contenedora genérica utilizada para estructurar bloques de contenido sin significado semántico específico en esta fase de aprendizaje.
+    • Propiedad CSS margin: 0 auto;: Centra de forma automática un elemento que tiene un ancho (width) definido dentro de la pantalla o de su contenedor padre.
+    • Propiedad CSS display: flex;: Convierte a un contenedor en un modelo flexible, permitiendo alinear y distribuir automáticamente sus elementos hijos en una sola fila.
+    • Propiedad CSS display: inline-block;: Permite que un elemento que por defecto es en línea (como un <span>) acepte propiedades de caja como ancho (width), alto (height) y márgenes verticales.
+    • Propiedad CSS display: none;: Oculta por completo el elemento de la interfaz visual y, a diferencia de otras propiedades de visibilidad, elimina por completo el espacio físico que ocupaba en el flujo de la página.
+Resumen de etiquetas y propiedades que pueden ayudar (3.1 ej1)
+    • Propiedad CSS position: static;: Posicionamiento por defecto de los elementos; respeta el flujo normal y desactiva las propiedades de desplazamiento (top, left, etc.).
+    • Propiedad CSS position: relative;: Posiciona el elemento en relación a su posición original, manteniendo reservado su espacio físico original en pantalla.
+    • Propiedad CSS position: absolute;: Saca al elemento del flujo normal y lo posiciona respecto a su ancestro posicionado más cercano, eliminando su espacio original.
+    • Propiedad CSS z-index: Controla el orden de apilamiento en el eje Z (profundidad) de los elementos, requiriendo obligatoriamente que tengan un posicionamiento activo (position distinto de static).
+Resumen de etiquetas y propiedades que pueden ayudar (3,1 ej2)
+    • Etiqueta <nav>: Define una sección de enlaces de navegación principal dentro del documento HTML.
+    • Propiedad CSS position: sticky;: Posiciona un elemento basándose en el desplazamiento del usuario; funciona como relativo hasta que alcanza un umbral (top: 0), momento en el que pasa a comportarse como fijo.
+    • Propiedad CSS position: fixed;: Saca al elemento del flujo normal de la página y lo fija de manera absoluta respecto a la ventana del navegador.
+    • Propiedad CSS z-index: Establece el orden de capas en profundidad (eje Z) para evitar que elementos del contenido seソrrezan o queden ocultos debajo de los menús fijos.
+    • Propiedad CSS scroll-behavior: smooth;: Habilita una transición de desplazamiento suave y animada al hacer clic en los enlaces con anclas (#id).
+Resumen de etiquetas y propiedades que pueden ayudar (3.1 ej3)
+    • Propiedad CSS overflow: Controla qué sucede con el contenido que desborda las dimensiones de una caja (valores comunes: visible, hidden, scroll, auto).
+    • Propiedad CSS position: absolute;: Saca al elemento del flujo normal y lo posiciona en relación a su contenedor padre más cercano que tenga un posicionamiento activo.
+    • Propiedad CSS visibility: hidden;: Oculta un elemento visualmente manteniendo reservado su espacio original en la estructura de la página.
+    • Propiedad CSS display: none;: Oculta completamente el elemento y elimina el espacio físico que ocupaba en el diseño del documento.
+Resumen de etiquetas y propiedades que pueden ayudar (3.2 ej1)
+    • Pseudoclase :nth-child(odd / even): Selecciona de forma automática los elementos hijos impares o pares dentro de su contenedor, ideal para tablas con efecto cebra.
+    • Pseudoclase :not(): Permite aplicar estilos excluyendo selectores específicos (en este ejercicio se usa para evitar que el efecto :hover afecte a la cabecera de la tabla).
+    • Fórmula :nth-child(3n+1): Patrón matemático avanzado que selecciona elementos de forma repetitiva (en este caso, los elementos 1, 4, 7, etc.).
+    • Pseudoclase :hover: Detecta la interacción del usuario cuando pasa el cursor por encima de un elemento interactivo o contenedor.
+Resumen de etiquetas y propiedades que pueden ayudar (3.2 ej 2)
+    • Pseudoclase :focus: Detecta el momento exacto en el que un campo de entrada recibe el foco o cursor del usuario.
+    • Pseudoclase :required: Selecciona automáticamente todos aquellos campos de formulario que contengan el atributo required obligatorio.
+    • Pseudoclase :read-only: Aplica estilos específicos a elementos de texto que no permiten modificaciones por parte del usuario.
+    • Pseudoclase :disabled: Controla el aspecto visual de controles de formulario que se encuentran desactivados.
+    • Pseudoclase :checked combinado con selector adyacente (+): Permite modificar el estilo del elemento <label> situado inmediatamente después de un botón de radio o casilla de selección al ser marcados.
+    • Encadenamiento de pseudoclases (:hover:focus): Permite aplicar estilos avanzados cuando se cumplen dos estados interactivos de forma simultánea en el mismo elemento.
+Resumen de etiquetas y propiedades que pueden ayudar (3.2 ej3)
+    • Pseudoelemento ::first-letter: Permite estilizar de forma independiente la letra inicial de un bloque de texto.
+    • Pseudoelemento ::first-line: Aplica formato exclusivo a la primera línea visual de un párrafo.
+    • Pseudoelemento ::selection: Modifica la apariencia visual (color y fondo) del texto cuando el usuario lo selecciona con el cursor.
+    • Propiedad content con ::before y ::after: Inserta contenido generado programáticamente (textos, símbolos o elementos vacíos) antes o después de un elemento HTML sin alterar la estructura original.
+    • Selectores de atributos ([target="_blank"]): Combinan la selección de elementos específicos según sus atributos HTML con la inyección de contenidos mediante pseudoelementos.
+    • Atributo personalizado data-* y attr(): Permite almacenar información en el HTML para mostrarla de manera dinámica mediante CSS (como en los tooltips interactivos).
+Resumen de etiquetas, selectores y propiedades (Actividad Final 1)
+    • Etiqueta semántica <header>: Define la cabecera principal de la página, utilizada para albergar los logotipos institucionales o de tecnologías y el título principal de la actividad. 
+    • Etiqueta semántica <nav>: Agrupa el bloque de navegación horizontal superior con los diferentes ítems del menú, aplicándoles interactividad y estilos específicos al pasar el cursor. 
+    • Etiqueta semántica <section>: Representa una sección de contenido agrupado temáticamente; en este ejercicio, engloba y organiza todas las cajas individuales de las redes sociales. 
+    • Etiqueta semántica <article>: Define una composición autónoma e independiente (cada una de las tarjetas de las redes sociales), permitiendo estructurar los bloques en línea mediante CSS. 
+    • Etiqueta semántica <footer>: Contiene el pie de página del documento, encargado de albergar la botonera de iconos secundarios y la información de autoría o copyright. 
+    • Propiedad CSS display: inline-block;: Permite que los elementos <article> se sitúen de forma consecutiva en una misma línea manteniendo las propiedades de caja (ancho, alto, márgenes y padding). 
+    • Pseudoclase estructural :nth-child(n): Selecciona de forma automática y secuencial los elementos hijos dentro de un contenedor, aplicada aquí para asignar un color de fondo semitransparente único (rgba) a cada tarjeta de red social. 
+    • Propiedades transform: scale() y transition: Permiten generar animaciones fluidas y escalados visuales interactivos (como hacer más grandes los iconos de las redes sociales o los elementos del menú al pasar el ratón por encima). 
+    • Importación @import: Permite cargar fuentes externas directamente desde la primera línea del archivo CSS (en este caso, la tipografía tipográfica Nunito en sus diferentes grosores).
+Resumen de etiquetas, selectores y propiedades (Actividad Final 2)
+    • Etiqueta semántica <header>: Delimita la cabecera principal de la web, sirviendo de contenedor de referencia relativa para posicionar de forma absoluta el sello "Nueva temporada". 
+    • Etiqueta semántica <nav>: Agrupa el menú de navegación principal con posicionamiento adhesivo (position: sticky) para que quede pegado en la parte superior al hacer scroll. 
+    • Etiqueta semántica <section>: Define cada una de las cuatro secciones principales (#inicio, #rutas, #galeria y #opiniones), permitiendo la navegación mediante anclas. 
+    • Etiqueta semántica <article>: Modula de forma independiente las tarjetas de rutas y cada uno de los bloques de opiniones de los usuarios. 
+    • Propiedades CSS position: sticky y z-index: Mantienen la barra de navegación fija arriba durante el desplazamiento y aseguran que se superponga al resto del contenido. 
+    • Propiedades CSS position: absolute y top/right: Posicionan con precisión el sello circular en la cabecera, las etiquetas de nivel dentro de cada tarjeta y el pie de foto en las polaroids. 
+    • Propiedades CSS position: relative y top: Permite elevar la tarjeta central 12 px respecto a sus vecinas sin alterar el flujo normal de la maquetación. 
+    • Propiedad CSS position: fixed: Mantiene el botón de "↑ Subir" siempre anclado en la esquina inferior derecha de la pantalla sin importar el scroll. 
+    • Propiedad CSS overflow: hidden: Recorta cualquier contenido que sobresalga de los bordes redondeados de las tarjetas. 
+    • Propiedad CSS overflow-y: auto: Fuerza la aparición de una barra de desplazamiento vertical cuando el contenido de la sección de opiniones supera los 170 px de altura. 
+    • Pseudoclase :hover con z-index: Eleva al primer plano la foto polaroid sobre la que se sitúa el cursor del ratón.
